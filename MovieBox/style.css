@@ -1,0 +1,193 @@
+body{
+    background-image: linear-gradient(45deg, rgb(29, 29, 29), rgb(49, 49, 49));
+    background-attachment: fixed;
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.Logo{
+    font-size: 50px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+button{
+    border: none;
+    height:40px;
+    align-items: center;
+    border-radius: 6px;
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    padding: 8px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+}
+.middle{
+    text-align: center;
+    justify-content: center;
+}
+.middle h1{
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     font-size: 100px;
+}
+p{
+    display: flex;
+    text-align:center ;
+    justify-content: center;
+    align-items: center;
+    
+}
+.mail{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+#Email{
+    display: flex;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: 2px solid rgb(73, 72, 72);   
+
+}
+#value{
+    display: flex;
+    margin-top: 0.5rem;
+    border: none;
+    border-radius: 8px;
+    height:40px;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    padding: 20px;
+    font-size: 15px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+}
+button:hover{
+    background-color: black;
+    transition: 0.3s;
+    cursor: pointer;
+}
+#value:hover{
+    background-color: black;
+    transition: 0.3s;
+    cursor: pointer;
+}
+:root {
+  --bg: #ffffff;
+  --text: #000000;
+}
+
+/* Dark mode styles that apply if the user's OS is set to dark mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #121212;
+    --text: #ffffff;
+  }
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+}
+a{
+    text-decoration: none;
+}
+.login-container{
+    display: flex;
+    margin: 150px;
+    align-content: center;
+    justify-content: center;
+    
+}
+.input-box{
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+
+}
+.input-box input{
+    background-color: rgb(44, 44, 44);
+
+}
+.remember-forgot{
+    justify-content: space-between;
+}
+.btn{
+    padding: 20px;
+}
+.sig-box{
+    border: 5px solid rgb(155, 155, 155);
+    border-radius: 20px;
+    background-image: linear-gradient(45deg, rgb(29, 29, 29), rgb(49, 49, 49));
+}
+@media (max-width:768px) {
+    nav{
+        flex-wrap: wrap;
+    }nav ul{
+        width: 100%;
+        flex-direction: column;
+        display: none;
+        margin-top: 1rem;
+    }
+    nav ul.show{
+        display: flex;
+    }
+    body{
+        font-size: 20px;
+        text-align: center;
+    }
+    .middle p{
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+    }
+    .Logo{
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar button{
+        justify-content: center;
+        align-items: center;
+        margin-left: 100px;
+    }
+    .middle h1{
+        font-size: 50px;
+    }
+    .mail{
+        margin-left: 0px;
+    }
+    .middle{
+        padding: 30px;
+    }
+    .Logo{
+        margin-left: 100px;
+    }
+    .login-container{
+        margin: 100px;
+    }
+
+
+
+
+
+
+    
+}
