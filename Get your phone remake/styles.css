@@ -1,0 +1,186 @@
+body{
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    color:white;
+    background-color: rgb(128, 193, 253);
+    text-align:center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.logo {
+    padding: 30px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;  
+}
+.info-section ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    text-decoration: none;
+    list-style: none;
+    font-size: larger; 
+    margin-right: 35px;
+}
+.buy{
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(0, 132, 255);
+    color: white;
+    padding: 20px; 
+    font-size: 20px;
+    transition: 0.4s;
+    transition-timing-function: ease-in-out;
+}
+.buy:hover{
+    background-color: white;
+    color: black;
+}
+.Buy{
+padding: 20px;
+}
+#res{
+    font-size: 50px;
+}
+.img-info{
+    width: 70px;
+    margin-top: -30px;
+}
+.info-container2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+    padding: 30px;
+    text-decoration: none;
+    justify-content: center;
+}
+.inf-cont2{
+    border: 5px solid white;
+    background-color: white;
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+.card2{
+    width: 200px;
+    height: auto;
+    padding: 10px 5px;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+.card2:hover{
+    background-color: rgb(40, 151, 255);
+    border: rgb(83, 83, 255);
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    transition-property: all;
+}
+.card2 img{
+    width: 150px;
+    height: auto;
+
+}
+.sign-up{
+    border-radius: 15px;
+    border: 3px solid black;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    font-size: 20px;
+    margin-bottom:30px ;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+.sign-up:hover{
+    border: 3px solid black;
+    background-color: white;
+    font-size: 40px;
+    color: blue;
+    transition-duration: 0.5s;
+}
+.inf-sec3{
+    background-image: linear-gradient(to right, rgb(43, 59, 73), rgb(26, 122, 139));
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    text-decoration: none;
+}
+.card2 a{
+    text-decoration: none;
+    color: inherit;
+}  
+.about{
+    font-size: 60px;
+}
+.about p{
+    font-size: 30px;
+}
+.lst-sec{
+    background-color: black;
+    bottom: 0%;
+}
+@media (max-width:768px) {
+    body{
+        justify-content: center;
+        align-items: center;
+    }
+    nav{
+        flex-wrap: wrap;
+        font-size: 50%;
+    }nav ul{
+        width: 100%;
+        display: none;
+        margin-top: 1rem;
+        font-size: 10px;
+        gap: 1rem;
+    }
+    nav ul.show{
+        display: flex;
+    }
+    .img-container{
+        width: 100%;
+    }
+    .card2{
+        margin-left: 40px;
+    }
+    .card2{
+        font-size: 100%;
+    }
+    .navbar{
+        font-size: 50;
+    }
+    .logo{
+        font-size: 30px;
+    }
+    .navbar a{
+        font-size: 20px;
+        margin-top: 10px;
+        gap: 1rem;
+    }
+    .navbar ul{
+        gap: 1rem;
+    }
+    .card2{
+        size: 20%;
+    }
+
+    
+}
